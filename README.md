@@ -1,4 +1,4 @@
-# Instructions for the PI ACE Inventory APP
+# Instructions for the PI ACE Inventory App
 
 1. PIacl.dat file needs to be taken backup of - can not do this manually when PI services are running
 2. pimoduledb.dat file needs to be taken backup of - can not do this manually when PI services are running
