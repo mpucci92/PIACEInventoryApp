@@ -11,5 +11,4 @@
 8. Run it through my python script and observe the 'Output' folder to view contents
 
 
-Dependencies: Python 3.8.5+ 
-             PIP install Pandas, Numpy, glob2, DateTime
+Dependencies: Python 3.8.5+, PIP install Pandas, Numpy, glob2, DateTime
