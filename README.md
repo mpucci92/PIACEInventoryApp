@@ -9,3 +9,6 @@
 7. clone github 'https://github.com/mpucci92/PIACEInventoryApp.git' to access python directory
 7. Open CSV and save as a CSV UTF8 file in the 'Data' folder
 8. Run it through my python script and observe the 'Output' folder to view contents
+
+
+Dependencies: PIP install Pandas, Numpy, glob2, DateTime
