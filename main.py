@@ -2,64 +2,86 @@ import pandas as pd
 import numpy as np
 import os
 import glob as glob
-import datetime
-
-date = datetime.datetime.now()
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+path_to_data = dir_path + r"\Data\*.csv"
 
-def largestChain(df, col):
-    listLength = []
+for file in glob.glob(path_to_data):
+    df = pd.read_csv(file)
 
-    for element in df[col].apply(lambda x: x.split("\\")):
-        listLength.append(len(element))
+    df = df[df['Name'].str.contains("ACEClassLibraries")].reset_index(drop=True)
 
-    return max(listLength)
+    module_df = df[df['Type'] == "Module"]
+    module_df = module_df.reset_index(drop=True)
 
-def renameCols(df):
-    renamed_columns = ['Module','AceScheduler_AceLibraries']
-    for i in range(len(df.columns)):
-        if i == 0 or i == 1:
-            continue
-        renamed_columns.append(f'AceComponent_{i-1}')
-    return renamed_columns
+    moduleNameList = []
 
+    for i in range(len(module_df['Name'])):
+        module_df['Name'].apply(lambda x: x.split("\\"))[i]
+        filterIndex = module_df['Name'].apply(lambda x: x.split("\\"))[i].index("ACEClassLibraries")
+        moduleName = "\\".join(module_df['Name'].apply(lambda x: x.split("\\"))[i][filterIndex:])
+        moduleNameList.append(moduleName)
 
-def columnStats(df):
-    anchor = 'AceScheduler_AceLibraries'
-    calculated = list(df.columns[2:].values)
+    module_df['ModuleName'] = moduleNameList
+    module_df = module_df.loc[:, ['Name', 'Type', 'ModuleName', 'ModuleCreator']]
+    module_df.columns = ['FullPath', 'Type', 'ModuleName', 'ModuleCreator']
 
-    for col in calculated:
-        (final_df.groupby(by=[anchor, col]).size().unstack(fill_value=0)).to_csv(dir_path + rf"\Output\{col}_Stats_{date}.csv",index=True)
+    df.rename(columns={'Name': 'FullPath'}, inplace=True)
 
-if __name__ == '__main__':
-    path_to_data = dir_path + r"\Data\*.csv"
-    for file in glob.glob(path_to_data):
+    ModuleIndexes = []
 
-        df = pd.read_csv(file)
+    for i in range(len(module_df)):
+        ModuleIndexes.append(list(df['FullPath']).index(module_df['FullPath'][i]))
 
-        lists_of_ACE = df['Name'].apply(lambda x: x.split('\\'))
+    DataframeList = []
 
-        dataframe_dict = {}
-        for j in range(largestChain(df, 'Name')):
-            dataframe_dict[j] = []
+    for i in range(len(ModuleIndexes)):
+        propertyList = []
+        try:
+            tmp = df.loc[ModuleIndexes[i]:ModuleIndexes[i + 1] - 1, :]
 
-        for i in range(len(lists_of_ACE)):
-            for j in range(largestChain(df, 'Name')):
+            tmp = tmp.loc[:, ['FullPath', 'Type', 'PropertyValue']]
+
+            for j in range(len(tmp)):
                 try:
-                    dataframe_dict[j].append(lists_of_ACE[i][j])
+                    propertyList.append(list(tmp['FullPath'].apply(lambda x: x.split("||")))[j][1])
                 except Exception as e:
-                    pass
+                    propertyList.append(None)
+                    continue
 
-        final_df = pd.DataFrame.from_dict(dataframe_dict,orient='index')
-        final_df = final_df.T
-        final_df = final_df.drop_duplicates().reset_index(drop=True)
-        final_df = final_df[(final_df[1] == "ACE2xSchedulers") | (final_df[1] == "ACEClassLibraries")]
+            tmp['PropertyName'] = propertyList
+            final = tmp.loc[:, ['FullPath', 'Type', 'PropertyName', 'PropertyValue']]
+            DataframeList.append(final)
+        except Exception as e:
+            tmp = df.loc[ModuleIndexes[i]:, :]
+            tmp = tmp.loc[:, ['FullPath', 'Type', 'PropertyValue']]
 
-        final_df.columns = renameCols(final_df)
-        date = str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
-        final_df.to_csv(dir_path + fr"\Output\OverallAceOutput_{date}.csv",index=False)
-        columnStats(final_df)
+            for j in range(len(tmp)):
+                try:
+                    propertyList.append(list(tmp['FullPath'].apply(lambda x: x.split("||")))[j][1])
+                except Exception as e:
+                    propertyList.append(None)
+                    continue
 
+            tmp['PropertyName'] = propertyList
+            final = tmp.loc[:, ['FullPath', 'Type', 'PropertyName', 'PropertyValue']]
+            DataframeList.append(final)
 
+    ModuleDictionary = {}
 
+    for i, name in enumerate(module_df['ModuleName']):
+        ModuleDictionary[i] = name
+
+    for i in range(len(DataframeList)):
+        csvName = ModuleDictionary[i].replace("\\", "-")
+        DataframeList[i].to_csv(dir_path + fr"\Output\{csvName}.csv",
+                                index=False)
+
+    df_empty = pd.DataFrame()
+    for i, value in enumerate(DataframeList):
+        if i == 0:
+            complete_df = pd.concat([df_empty, value], axis=0)
+        else:
+            complete_df = pd.concat([complete_df, value], axis=0)
+
+    complete_df.to_csv(dir_path + fr"\Output\COMPLETE.csv", index=False)
