@@ -1,0 +1,404 @@
+﻿Name,Type,ModuleCreationDate,ModuleCreator,ModuleDescription,ModuleEffectiveDate,ModuleIsPIUnit,ModuleModifier,ModuleModifyDate,ModuleObsoleteDate,ModuleParentCount,ModulePIHeading,ModuleRevisionNumber,ModuleSecurity,ModuleUniqueID,ModuleVersionComment,AliasDataSource,PropertyType,PropertyValue
+\\SVCS-ACE\%OSI,Module,2/28/2022 9:49:32 AM,piadmin,OSI Internal Application Information,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 9:49:32 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),5c64c379-c182-4f35-8d30-78d8c2f84501,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers,Module,2/28/2022 10:56:44 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 10:56:51 AM,,1,,3,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),8e314865-96e9-426a-8bba-c6eae2846419,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers||IsDefault,Property,,,,,,,,,,,,,,,,Integer,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers||LastDisplayedServers,Property,,,,,,,,,,,,,,,,String,SVCS-ACE|
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default,Module,2/28/2022 10:56:44 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,1,,11,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),a12a6aba-bd5d-4fc9-98bd-5f7d69d5913e,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||IsDefault,Property,,,,,,,,,,,,,,,,Integer,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||IsLocked,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||MessageLevel,Property,,,,,,,,,,,,,,,,Double,1073739775
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||Port,Property,,,,,,,,,,,,,,,,Long,5456
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||Scheduler,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:32 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||User,Property,,,,,,,,,,,,,,,,String,SYSTEM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default||DisablePerformanceCounter,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE,Module,3/2/2022 11:16:44 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:33 PM,,2,,13,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),fdca89af-2f33-4293-b764-789207c2a295,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||FileName,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\BrianFirstACE.vbproj
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||IsACEExe,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||SourceFileLocation,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:34 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||AssemblyPath,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\bin\Debug\BrianFirstACE.dll
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE||ProcessID,Property,,,,,,,,,,,,,,,,Long,3528
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main,Module,3/2/2022 11:30:22 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:33 PM,,1,,10,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),55c9814e-a1d1-448d-9716-a15948d3fdbc,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||Comment,Property,,,,,,,,,,,,,,,,String,test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||IsEditing,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:34 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|\InputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|\OutputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Compressor\Pressure
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Compressor\Pressure|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Pressure
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main||TagAliases|Test|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1,Module,3/2/2022 11:30:22 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,1,,10,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),dae9c889-7dd4-40a4-bae8-c65f7fe5926a,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||AutoRecalculationInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||CalculationLimit,Property,,,,,,,,,,,,,,,,Long,600
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||CLViolationCount,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||CLViolationCountLimit,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||ErrorMessage,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||MessageLevel,Property,,,,,,,,,,,,,,,,Long,5
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||Name,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||Priority,Property,,,,,,,,,,,,,,,,Long,3
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:34 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||ScheduleInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||ScheduleInfo|Offset,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\BrianFirstACE\Main\Context1||ScheduleInfo|Period,Property,,,,,,,,,,,,,,,,Double,600
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE,Module,5/30/2022 3:41:10 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,2,,12,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),808a6a38-0ade-4edc-b2ad-288864a9dc5b,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||FileName,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\BrianFirstACE.vbproj
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||IsACEExe,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||SourceFileLocation,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||AssemblyPath,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\bin\Debug\BrianFirstACE.dll
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE||ProcessID,Property,,,,,,,,,,,,,,,,Long,2912
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main,Module,5/30/2022 3:41:38 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,1,,46,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),beed48f9-d441-4e41-9c58-11a7d71faa86,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||Comment,Property,,,,,,,,,,,,,,,,String,test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||IsEditing,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|\InputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|\OutputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Compressor\Pressure
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Pressure
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main||TagAliases|Test|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1,Module,5/30/2022 3:42:05 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:35 PM,,1,,20,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),2369c087-7060-450d-8126-ccee38be043d,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||AutoRecalculationInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||CalculationLimit,Property,,,,,,,,,,,,,,,,Long,600
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||CLViolationCount,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||CLViolationCountLimit,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||ErrorMessage,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||MessageLevel,Property,,,,,,,,,,,,,,,,Long,5
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||Name,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||Priority,Property,,,,,,,,,,,,,,,,Long,3
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||ScheduleInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||ScheduleInfo|Offset,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MichaelFirstACE\Main\Context1||ScheduleInfo|Period,Property,,,,,,,,,,,,,,,,Double,600
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE,Module,5/30/2022 3:42:57 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,OSI\mpucci,5/30/2022 3:43:35 PM,,1,,45,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),92a02cda-01c8-41fb-b092-ed360d830184,,
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||Comment,Property,,,,,,,,,,,,,,,,String,test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||IsEditing,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||StatusSince,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:51:34 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|\InputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|\OutputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Compressor\Pressure
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Compressor\Pressure|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Pressure
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||TagAliases|Test|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||FileName,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\BrianFirstACE.vbproj
+\\SVCS-ACE\%OSI\ACE2xSchedulers\default\MPACE||IsACEExe,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries,Module,2/28/2022 10:56:44 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:33 PM,,1,,6,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),ad3c4f8c-8ad1-4c91-8f50-f52be7322710,,
+\\SVCS-ACE\%OSI\ACEClassLibraries||IsDefault,Property,,,,,,,,,,,,,,,,Integer,1
+\\SVCS-ACE\%OSI\ACEClassLibraries||IsLocked,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries||MessageLevel,Property,,,,,,,,,,,,,,,,Double,1073739775
+\\SVCS-ACE\%OSI\ACEClassLibraries||Port,Property,,,,,,,,,,,,,,,,Integer,5456
+\\SVCS-ACE\%OSI\ACEClassLibraries||Scheduler,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries||StatusSince,Property,,,,,,,,,,,,,,,,PITime,2/28/2022 10:56:44 AM
+\\SVCS-ACE\%OSI\ACEClassLibraries||User,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE,Module,3/2/2022 11:16:44 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:33 PM,,2,,13,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),fdca89af-2f33-4293-b764-789207c2a295,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||FileName,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\BrianFirstACE.vbproj
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||IsACEExe,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||SourceFileLocation,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:34 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||AssemblyPath,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\bin\Debug\BrianFirstACE.dll
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE||ProcessID,Property,,,,,,,,,,,,,,,,Long,3528
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main,Module,3/2/2022 11:30:22 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:33 PM,,1,,10,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),55c9814e-a1d1-448d-9716-a15948d3fdbc,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||Comment,Property,,,,,,,,,,,,,,,,String,test
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||IsEditing,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:34 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|\InputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|\OutputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Compressor\Pressure
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Compressor\Pressure|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Pressure
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main||TagAliases|Test|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1,Module,3/2/2022 11:30:22 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,1,,10,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),dae9c889-7dd4-40a4-bae8-c65f7fe5926a,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||AutoRecalculationInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||CalculationLimit,Property,,,,,,,,,,,,,,,,Long,600
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||CLViolationCount,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||CLViolationCountLimit,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||ErrorMessage,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||MessageLevel,Property,,,,,,,,,,,,,,,,Long,5
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||Name,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||Priority,Property,,,,,,,,,,,,,,,,Long,3
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:34 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||ScheduleInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||ScheduleInfo|Offset,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\BrianFirstACE\Main\Context1||ScheduleInfo|Period,Property,,,,,,,,,,,,,,,,Double,600
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE,Module,5/30/2022 3:41:10 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,2,,12,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),808a6a38-0ade-4edc-b2ad-288864a9dc5b,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||FileName,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\BrianFirstACE.vbproj
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||IsACEExe,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||SourceFileLocation,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||AssemblyPath,Property,,,,,,,,,,,,,,,,String,C:\Program Files (x86)\PIPC\ACE\ClassLibraries\BrianFirstACE\bin\Debug\BrianFirstACE.dll
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE||ProcessID,Property,,,,,,,,,,,,,,,,Long,2912
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main,Module,5/30/2022 3:41:38 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:34 PM,,1,,46,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),beed48f9-d441-4e41-9c58-11a7d71faa86,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||Comment,Property,,,,,,,,,,,,,,,,String,test
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||IsEditing,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|\InputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|\OutputCount,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Compressor\Pressure
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Compressor\Pressure|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Pressure
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Date,Property,,,,,,,,,,,,,,,,PITime,3/2/2022 11:30:23 AM
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|InputClamping,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Name,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputBadValSub,Property,,,,,,,,,,,,,,,,String,No Substitution
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|OutputClamping,Property,,,,,,,,,,,,,,,,Integer,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|Type,Property,,,,,,,,,,,,,,,,Long,2
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|RevHistory|Rev1|User,Property,,,,,,,,,,,,,,,,String,piadmin
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main||TagAliases|Test|SourceCodeName,Property,,,,,,,,,,,,,,,,String,Test
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1,Module,5/30/2022 3:42:05 PM,OSI\mpucci,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:35 PM,,1,,20,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),2369c087-7060-450d-8126-ccee38be043d,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||AutoRecalculationInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||CalculationLimit,Property,,,,,,,,,,,,,,,,Long,600
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||CLViolationCount,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||CLViolationCountLimit,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ErrorMessage,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||IsModified,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||MessageLevel,Property,,,,,,,,,,,,,,,,Long,5
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||Name,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||Priority,Property,,,,,,,,,,,,,,,,Long,3
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||RevHistory,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||Status,Property,,,,,,,,,,,,,,,,Long,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||StatusSince,Property,,,,,,,,,,,,,,,,PITime,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ScheduleInfo,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ScheduleInfo|Offset,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ScheduleInfo|Period,Property,,,,,,,,,,,,,,,,Double,600
+\\SVCS-ACE\%OSI\ClientApps,Module,2/28/2022 9:49:32 AM,piadmin,OSI Internal ClientApps Information,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 9:49:32 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),3a816e08-188c-43c5-8a3b-e4ccce0e8238,,
+\\SVCS-ACE\%OSI\Components,Module,2/28/2022 9:49:32 AM,piadmin,OSI Internal Components Information,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 9:49:32 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),b9cb96c8-8a4f-4b93-9f67-2f52962e4ee3,,
+\\SVCS-ACE\%OSI\Framework,Module,2/28/2022 9:49:32 AM,piadmin,OSI Internal Framework Information,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 9:49:32 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),17cce513-5181-41b5-955c-2eab03b1ecaf,,
+\\SVCS-ACE\%OSI\Interfaces,Module,2/28/2022 9:49:32 AM,piadmin,OSI Internal Interfaces Information,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 9:49:32 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),25cfa400-c8cd-40c3-95b9-3742ee76e82e,,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE,Module,3/2/2022 11:39:19 AM,OSI\bbregenzer,,12/31/1969 7:00:01 PM,FALSE,OSI\bbregenzer,3/2/2022 11:39:19 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),9b0a79e7-2e81-49b6-a872-2c1cda99b40a,,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1,Module,3/2/2022 11:39:19 AM,OSI\bbregenzer,,12/31/1969 7:00:01 PM,FALSE,OSI\bbregenzer,3/2/2022 11:41:07 AM,,1,,56,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),b808918a-e4f0-46e5-9d4a-8170dfb760ca,,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||InterfaceBinary,Property,,,,,,,,,,,,,,,,String,random
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||ICUCommandLineDelimiter,Property,,,,,,,,,,,,,,,,String,/
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||CurrentInstallationPath,Property,,,,,,,,,,,,,,,,String,C:\Program Files\PIPC\Interfaces\Random\
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||GenericName,Property,,,,,,,,,,,,,,,,String,random
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||InterfaceStatusTag,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||DescriptiveName,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||InterfaceSaveChangesForICUControlMessageSuppression,Property,,,,,,,,,,,,,,,,String,Off
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||InterfaceChangesRequiringRestartMessageSuppression,Property,,,,,,,,,,,,,,,,String,Off
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||SupportedUFOPhase,Property,,,,,,,,,,,,,,,,String,0
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||UFO_OtherInterface,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/NoGap,Property,,,,,,,,,,,,,,,,String,12h
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/PS,Property,,,,,,,,,,,,,,,,String,R
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/host,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/pisdk,Property,,,,,,,,,,,,,,,,String,0
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/maxstoptime,Property,,,,,,,,,,,,,,,,String,120
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/PercentUp,Property,,,,,,,,,,,,,,,,String,100
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/perf,Property,,,,,,,,,,,,,,,,String,8
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/f{1},Property,,,,,,,,,,,,,,,,String,0:00:30
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\random1||Arguments|/f{2},Property,,,,,,,,,,,,,,,,String,0:01:00
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1,Module,3/2/2022 11:41:24 AM,OSI\bbregenzer,,12/31/1969 7:00:01 PM,FALSE,OSI\bbregenzer,3/2/2022 11:41:57 AM,,1,,40,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),62f3b764-97fd-496e-8645-637056c077de,,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||InterfaceBinary,Property,,,,,,,,,,,,,,,,String,rmp_sk
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||ICUCommandLineDelimiter,Property,,,,,,,,,,,,,,,,String,/
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||CurrentInstallationPath,Property,,,,,,,,,,,,,,,,String,C:\Program Files\PIPC\Interfaces\Rmp_sk\
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||GenericName,Property,,,,,,,,,,,,,,,,String,rampsoak
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||InterfaceStatusTag,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||DescriptiveName,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||InterfaceSaveChangesForICUControlMessageSuppression,Property,,,,,,,,,,,,,,,,String,Off
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||InterfaceChangesRequiringRestartMessageSuppression,Property,,,,,,,,,,,,,,,,String,Off
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||SupportedUFOPhase,Property,,,,,,,,,,,,,,,,String,0
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/NOGAP,Property,,,,,,,,,,,,,,,,String,12h
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/PS,Property,,,,,,,,,,,,,,,,String,9
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/host,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/pisdk,Property,,,,,,,,,,,,,,,,String,0
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/maxstoptime,Property,,,,,,,,,,,,,,,,String,120
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/PercentUp,Property,,,,,,,,,,,,,,,,String,100
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/perf,Property,,,,,,,,,,,,,,,,String,8
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/f{1},Property,,,,,,,,,,,,,,,,String,0:00:30
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||Arguments|/f{2},Property,,,,,,,,,,,,,,,,String,0:01:00
+\\SVCS-ACE\%OSI\Interfaces\SVCS-ACE\rmp_sk1||UFO_OtherInterface,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\MDB-AFMigrationData,Module,3/2/2022 11:21:58 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,5/30/2022 3:55:21 PM,,1,,33,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),744bae09-ef0e-4f49-8f63-19dcdbb158c1,,
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||ReplacementCharacters,Property,,,,,,,,,,,,,,,,String,";|,{|<""}|>""[|(""]|)""\|/"""
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||PropertyNameSuffix,Property,,,,,,,,,,,,,,,,String,_Prop
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||ModuleNameSuffix,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||RecordCount,Property,,,,,,,,,,,,,,,,Long,0
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||MD,Property,,,,,,,,,,,,,,,,String,MDBTOAF
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||UQ,Property,,,,,,,,,,,,,,,,String,PIAFLINK%SVCS-ACE%
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||UpgradeStatus,Property,,,,,,,,,,,,,,,,String,Ready
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||PISystem,Property,,,,,,,,,,,,,,,,String,SVCS-ACE
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||AFDB,Property,,,,,,,,,,,,,,,,String,MDB Sync
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||RootElement,Property,,,,,,,,,,,,,,,,String,SVCS-ACE ModuleDB
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||AFGroupSID,Property,,,,,,,,,,,,,,,,String,S-1-5-21-1586925597-1729276128-3230097345-1013
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||MigStatus,Property,,,,,,,,,,,,,,,,Long,9
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||BK,Property,,,,,,,,,,,,,,,,String,
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||AFCST,Property,,,,,,,,,,,,,,,,Double,1646238466
+\\SVCS-ACE\%OSI\MDB-AFMigrationData||BRChk,Property,,,,,,,,,,,,,,,,Double,1646238466
+\\SVCS-ACE\%OSI\Server,Module,2/28/2022 9:49:32 AM,piadmin,OSI Internal Server Information,12/31/1969 7:00:01 PM,FALSE,piadmin,2/28/2022 9:49:32 AM,,1,,1,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),dd26b49e-6551-422f-8aed-03bff6e2756b,,
+\\SVCS-ACE\Compressor,Module,3/2/2022 11:26:52 AM,piadmin,,12/31/1969 7:00:01 PM,FALSE,piadmin,3/2/2022 11:27:19 AM,,1,,3,piadmin: A(r,w) | piadmins: A(r,w) | PIWorld: A(r),b974e26a-f754-4850-8d5a-4de421a1b9ec,,
+\\SVCS-ACE\Compressor|Pressure,Alias,,,,,,,,,,,,,,,\\SVCS-ACE\BrianFLoat,,
