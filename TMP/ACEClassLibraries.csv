@@ -1,0 +1,11 @@
+FullPath,Type,PropertyName,PropertyValue
+\\SVCS-ACE\%OSI\ACEClassLibraries,Module,,
+\\SVCS-ACE\%OSI\ACEClassLibraries||IsDefault,Property,IsDefault,1
+\\SVCS-ACE\%OSI\ACEClassLibraries||IsLocked,Property,IsLocked,0
+\\SVCS-ACE\%OSI\ACEClassLibraries||IsModified,Property,IsModified,0
+\\SVCS-ACE\%OSI\ACEClassLibraries||MessageLevel,Property,MessageLevel,1073739775
+\\SVCS-ACE\%OSI\ACEClassLibraries||Port,Property,Port,5456
+\\SVCS-ACE\%OSI\ACEClassLibraries||Scheduler,Property,Scheduler,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries||Status,Property,Status,1
+\\SVCS-ACE\%OSI\ACEClassLibraries||StatusSince,Property,StatusSince,2/28/2022 10:56:44 AM
+\\SVCS-ACE\%OSI\ACEClassLibraries||User,Property,User,

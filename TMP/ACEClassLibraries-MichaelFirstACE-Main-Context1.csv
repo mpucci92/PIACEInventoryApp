@@ -1,0 +1,17 @@
+FullPath,Type,PropertyName,PropertyValue
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1,Module,,
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||AutoRecalculationInfo,Property,AutoRecalculationInfo,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||CalculationLimit,Property,CalculationLimit,600
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||CLViolationCount,Property,CLViolationCount,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||CLViolationCountLimit,Property,CLViolationCountLimit,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ErrorMessage,Property,ErrorMessage,
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||IsModified,Property,IsModified,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||MessageLevel,Property,MessageLevel,5
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||Name,Property,Name,SVCS-ACE
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||Priority,Property,Priority,3
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||RevHistory,Property,RevHistory,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||Status,Property,Status,1
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||StatusSince,Property,StatusSince,5/30/2022 3:55:35 PM
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ScheduleInfo,Property,ScheduleInfo,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ScheduleInfo|Offset,Property,ScheduleInfo|Offset,0
+\\SVCS-ACE\%OSI\ACEClassLibraries\MichaelFirstACE\Main\Context1||ScheduleInfo|Period,Property,ScheduleInfo|Period,600
