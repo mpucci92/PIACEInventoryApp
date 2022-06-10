@@ -74,14 +74,30 @@ for file in glob.glob(path_to_data):
 
     for i in range(len(DataframeList)):
         csvName = ModuleDictionary[i].replace("\\", "-")
-        DataframeList[i].to_csv(dir_path + fr"\Output\{csvName}.csv",
+        DataframeList[i].to_csv(dir_path + fr"\TMP\{csvName}.csv",
                                 index=False)
 
-    df_empty = pd.DataFrame()
-    for i, value in enumerate(DataframeList):
-        if i == 0:
-            complete_df = pd.concat([df_empty, value], axis=0)
-        else:
-            complete_df = pd.concat([complete_df, value], axis=0)
+    output_folder_path = dir_path + r"\TMP\*.csv"
 
-    complete_df.to_csv(dir_path + fr"\Output\COMPLETE.csv", index=False)
+    for i, file in enumerate(glob.glob(output_folder_path)):
+        if i == 0:
+            comp_df = pd.read_csv(file)
+            col_comp_names = ['FullPath'] + list(comp_df[comp_df['Type'] == 'Property']['PropertyName'])
+            tmp_df = pd.DataFrame(columns=col_comp_names)
+            col_values = list(comp_df[comp_df['Type'] == 'Module']['FullPath']) + list(
+                comp_df[comp_df['Type'] == 'Property']['PropertyValue'])
+            tmp_df.loc[0] = col_values
+
+        else:
+            comp_df = pd.read_csv(file)
+            col_comp_names = ['FullPath'] + list(comp_df[comp_df['Type'] == 'Property']['PropertyName'])
+            tmp_df1 = pd.DataFrame(columns=col_comp_names)
+            col_values = list(comp_df[comp_df['Type'] == 'Module']['FullPath']) + list(
+                comp_df[comp_df['Type'] == 'Property']['PropertyValue'])
+            tmp_df1.loc[0] = col_values
+            tmp_df = pd.concat([tmp_df, tmp_df1], ignore_index=True)
+
+    tmp_df.to_csv(dir_path + fr"\Output\COMPLETE_ACE.csv",
+                                index=False)
+
+
